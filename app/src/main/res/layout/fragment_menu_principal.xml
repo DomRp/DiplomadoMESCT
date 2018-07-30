@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondoMESCyT"
+    android:fitsSystemWindows="true"
+    tools:context=".modelo.interfaces.menu.menuPrincipal.MenuPrincipalFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/ivLogoMESCyT"
+            android:layout_width="163dp"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/logo_white_sin_titulo_mescyt"
+            android:foregroundGravity="center_horizontal"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="346dp"
+            android:fontFamily="@font/autour_one"
+            android:text="Proyecto final | Diplomado Android"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/colorFondoAmarillo"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSubTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="327dp"
+            android:fontFamily="@font/autour_one"
+            android:text="Copyright 2018  Leandro Leonardo"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlanco"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvTituloFinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="298dp"
+            android:fontFamily="@font/autour_one"
+            android:text="Todos los derechos reservados"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlanco"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvAPI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="199dp"
+            android:fontFamily="@font/aclonica"
+            android:text="API 26 | 8.0"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/colorFondoAmarillo"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,122 @@
+<resources>
+                                            <!-- 1 -->
+
+    <!--========================== 1 SPLASH PRINCIPAL SIN ACTION BAR ============================-->
+    <style name="AppThemeSplashPrincipalNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorFondoRojo</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorFondoMESCyT</item>
+        <item name="android:statusBarColor">@color/colorFondoMESCyT</item>
+    </style>
+
+    <!--===================== 1.1 SPLASH PRINCIPAL CON ACTION BAR =====================-->
+
+    <style name="AppThemeSplashPrincipalConActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorFondoRojo</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorFondoMESCyT</item>
+        <item name="android:statusBarColor">@color/colorFondoMESCyT</item>
+    </style>
+    <!--=========================================================================================-->
+
+
+                                            <!-- 2 -->
+
+
+    <!--============================ 2 TEMA SWIPES SIN ACTION BAR ===============================-->
+    <style name="AppThemeSwipesNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorFondoRojo</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorFondoSwipesNavBar</item>
+        <item name="android:statusBarColor">@color/colorFondoSwipesStatusBar</item>
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <!--=========================================================================================-->
+
+
+                                            <!-- 3 -->
+
+
+    <!--============================ 3 TEMA MESCyT SIN ACTION BAR ===============================-->
+    <style name="AppThemeMESCyTNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorFondoRojo</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorFondoMESCyT</item>
+        <item name="android:statusBarColor">@color/colorFondoMESCyT</item>
+    </style>
+
+    <!--===================== 3.1 TEMA MESCyT CON ACTION BAR =====================-->
+    <style name="AppThemeMESCyTConActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/colorFondoRojo</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorFondoMESCyT</item>
+        <item name="android:statusBarColor">@color/colorFondoMESCyT</item>
+    </style>
+    <!--=========================================================================================-->
+
+
+                                            <!-- 4 -->
+
+
+    <!--==================================== Login HomeWork =====================================-->
+    <style name="AppThemeLoginConActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorYellow</item>
+        <item name="colorPrimaryDark">@color/colorAzulGris</item>
+        <item name="colorAccent">@android:color/holo_purple</item>
+        <item name="android:navigationBarColor">@android:color/holo_green_light</item>
+        <item name="android:statusBarColor">@android:color/holo_blue_light</item>
+    </style>
+
+    <!--===================== 4.1 LOGIN PROFILE SIN ACTION BAR =====================-->
+    <style name="AppThemeLoginProfileNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAzulBuggy</item>
+        <item name="colorPrimaryDark">@color/colorYellow</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--=========================================================================================-->
+
+                                <!-- CUIDADO - NAVIGATION DRAWER -->
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--=========================================================================================-->
+
+    <style name="AppThemeSplashPrincipal" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorFondoRojo</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorFondoMESCyT</item>
+        <item name="android:statusBarColor">@color/colorFondoMESCyT</item>
+    </style>
+
+
+</resources>

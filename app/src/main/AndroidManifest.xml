@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.o_o.diplomadomesct">
+
+    <!--- para usar el Internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--- para usar la camara desde la App -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <!--escribir en memoria para guardar las fotos -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!--leer las imagenes guardadas en la galeria -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".modelo.intro.introAsplash.SplashActivity"
+            android:screenOrientation="fullUser"
+            android:theme="@style/AppThemeSplashPrincipal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+        <!-- ======================================================================= -->
+
+        <activity
+            android:name=".modelo.intro.introSwipes.IntroActivity"
+            android:screenOrientation="fullUser"
+            android:theme="@style/AppThemeSwipesNoActionBar" />
+        <!-- ======================================================================= -->
+
+        <activity
+            android:name=".modelo.intro.introBienvenida.BienvenidaActivity"
+            android:screenOrientation="fullUser"
+            android:parentActivityName=".modelo.intro.introSwipes.IntroActivity" />
+        <!-- ======================================================================= -->
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="fullUser"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- ======================================================================= -->
+
+        <activity
+            android:name=".modelo.interfaces.menu.tareas.login.LoginActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="fullUser"
+            android:theme="@style/AppThemeLoginConActionBar" />
+        <!-- ======================================================================= -->
+        <activity
+            android:name=".modelo.interfaces.menu.tareas.login.ProfileActivity"
+            android:parentActivityName=".modelo.interfaces.menu.tareas.login.LoginActivity"
+            android:screenOrientation="fullUser"
+            android:theme="@style/AppThemeLoginConActionBar" />
+        <!-- ======================================================================= -->
+        <activity
+            android:name=".modelo.interfaces.menu.proyectosFinales.servNotificacion.NotificationActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeMESCyTConActionBar"/>
+        <!-- ======================================================================= -->
+
+
+
+    </application>
+
+</manifest>

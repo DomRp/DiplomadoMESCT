@@ -1,0 +1,22 @@
+<resources>
+    <!--==================== NOMBRE APP ====================-->
+    <string name="app_name">MESCyT</string>
+
+    <!--==================== NAV DRAWER ====================-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!--==================== LOGIN ====================-->
+    <string name="dialog_body_message">El Usuario o Contraseña introducido es incorrecto</string>
+    <string name="dialog_title_message">¿Olvido su contraseña?</string>
+
+    <!--==================== WEB SERVICES ====================-->
+    <string name="ip2">http://192.168.1.55</string>
+    <string name="ip">https://tutorialandroidcodejavu.000webhostapp.com</string>
+
+    <!--==================== NPI ====================-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

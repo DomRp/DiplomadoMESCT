@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--============================================================================================
+                                          MENU 1
+        ============================================================================================-->
+    <item android:title="MENÚ PRINCIPAL">
+        <menu>
+            <item
+                android:id="@+id/nav_menuPrincipal"
+                android:icon="@drawable/ic_home_black"
+                android:title="Bienvenida" />
+        </menu>
+    </item>
+
+    <!--============================================================================================
+                                              MENU 2
+        ============================================================================================-->
+    <item android:title="PROYECTO FINAL | 1 - 2">
+        <!-- <group android:checkableBehavior="single">-->
+        <menu>
+            <item
+                android:id="@+id/nav_apiRest"
+                android:icon="@drawable/ic_cast_connected_black"
+                android:title="Consumir API Rest" />
+
+            <item
+                android:id="@+id/nav_sharedPref"
+                android:icon="@drawable/ic_sd_storage_black"
+                android:title="SharedPreferences" />
+
+            <item
+                android:id="@+id/nav_servNotificacion"
+                android:icon="@drawable/ic_notifications_active_black"
+                android:title="Servicio de notificación" />
+
+        </menu>
+    </item>
+
+    <!--============================================================================================
+                                          MENU 3
+        ============================================================================================-->
+    <item android:title="PROYECTO FINAL | 2 - 2">
+        <menu>
+            <item
+                android:id="@+id/nav_inicio_bd"
+                android:icon="@drawable/ic_cast_connected_black"
+                android:title="BD Remota" />
+
+            <item
+                android:id="@+id/nav_registrar_usuario_bd"
+                android:icon="@drawable/ic_person_add_black"
+                android:title="Registrar usuario" />
+
+            <item
+                android:id="@+id/nav_consulta_usuario_bd"
+                android:icon="@drawable/ic_data_usage_black"
+                android:title="Consultar usuario" />
+
+            <item
+                android:id="@+id/nav_consulta_lista_usuario"
+                android:icon="@drawable/ic_search_black"
+                android:title="Consultar lista de usuarios" />
+
+            <item
+                android:id="@+id/nav_consulta_usuario_con_url"
+                android:icon="@drawable/ic_youtube_searched_for_black"
+                android:title="Consultar usuario con URL" />
+
+            <item
+                android:id="@+id/nav_consulta_lista_usuario_imagen_url"
+                android:icon="@drawable/ic_youtube_searched_for_black"
+                android:title="Consultar lista de usuarios IMG - URL" />
+
+            <item
+                android:id="@+id/nav_consulta_lista_usuario_imagen"
+                android:icon="@drawable/ic_search_black"
+                android:title="Consultar lista de usuarios con imagenes" />
+
+        </menu>
+    </item>
+
+    <!--============================================================================================
+                                          MENU 4
+        ============================================================================================-->
+
+    <item android:title="ASIGNACIONES - PRÁCTICAS">
+        <menu>
+
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_account_circle_black"
+                android:title="Login" />
+
+            <item
+
+                android:id="@+id/nav_recyclerView"
+                android:icon="@drawable/ic_delete_sweep_black"
+                android:title="RecyclerView" />
+
+        </menu>
+    </item>
+
+    <!--============================================================================================
+                                          MENU 5
+        ============================================================================================-->
+
+    <item android:title="POLITICAS DEL AUTOR">
+        <menu>
+
+            <item
+                android:id="@+id/nav_copyright"
+                android:icon="@drawable/ic_copyright_black"
+                android:title="Copyright" />
+
+            <item
+                android:id="@+id/nav_autor"
+                android:icon="@drawable/ic_contact_mail_black"
+                android:title="Acerca del autor" />
+
+        </menu>
+    </item>
+
+    <!--============================================================================================
+                                          MENU 6
+    ============================================================================================-->
+    <item android:title="COMPARTE ESTÁ APLICACIÓN">
+        <menu>
+
+            <item
+                android:id="@+id/nav_enviar"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Enviar sugerencias" />
+
+            <item
+                android:id="@+id/nav_compartir"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartir aplicación" />
+
+        </menu>
+    </item>
+
+</menu>

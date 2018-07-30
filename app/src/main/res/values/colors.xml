@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#530909</color>
+    <color name="colorPrimaryDark">#1c355c</color>
+    <color name="colorAccent">#1c355c</color>
+
+    <color name="colorFondoMESCyT">#1c355c</color>
+    <color name="colorFondoRojo">#530909</color>
+    <color name="colorFondoAmarillo">#fdd601</color>
+
+    <color name="colorFondoSwipesNavBar">#00000000</color>
+    <color name="colorFondoSwipesStatusBar">#00000000</color>
+
+    <color name="colorBlanco">#ffffff</color>
+    <color name="colorTransparenteBlanco">#c4cccccc</color>
+    <color name="colorTransparenteGris">#A8A9B2</color>
+
+    <!--========================= LOGIN ======================-->
+    <color name="colorAzulGris">#3c426b</color>
+    <color name="colorAzulBuggy">#212154</color>
+    <color name="colorYellow">#fdc401</color>
+    <!--======================================================-->
+</resources>
