@@ -43,15 +43,16 @@
         <!-- ======================================================================= -->
 
         <activity
-            android:name=".modelo.intro.introSwipes.IntroActivity"
+            android:name=".modelo.intro.introBienvenida.BienvenidaActivity"
             android:screenOrientation="fullUser"
-            android:theme="@style/AppThemeSwipesNoActionBar" />
+            android:theme="@style/AppThemeMESCyTNoActionBar"
+            android:parentActivityName=".modelo.intro.introSwipes.IntroActivity" />
         <!-- ======================================================================= -->
 
         <activity
-            android:name=".modelo.intro.introBienvenida.BienvenidaActivity"
+            android:name=".modelo.intro.introSwipes.IntroActivity"
             android:screenOrientation="fullUser"
-            android:parentActivityName=".modelo.intro.introSwipes.IntroActivity" />
+            android:theme="@style/AppThemeSwipesNoActionBar" />
         <!-- ======================================================================= -->
 
         <activity

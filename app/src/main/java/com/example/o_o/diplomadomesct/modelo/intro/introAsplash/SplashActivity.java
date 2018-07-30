@@ -8,6 +8,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import com.example.o_o.diplomadomesct.R;
+import com.example.o_o.diplomadomesct.modelo.intro.introBienvenida.BienvenidaActivity;
 import com.example.o_o.diplomadomesct.modelo.intro.introSwipes.IntroActivity;
 
 public class SplashActivity extends AppCompatActivity {
@@ -22,7 +23,7 @@ public class SplashActivity extends AppCompatActivity {
 
         ivLogoMESCyT.startAnimation(splashAnim);
 
-        final Intent i = new Intent(this, IntroActivity.class);
+        final Intent i = new Intent(this, BienvenidaActivity.class);
 
         Thread timer = new Thread() {
 
