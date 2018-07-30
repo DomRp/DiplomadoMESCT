@@ -17,6 +17,7 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.example.o_o.diplomadomesct.MainActivity;
 import com.example.o_o.diplomadomesct.R;
 import com.example.o_o.diplomadomesct.persistence.menu.proyectosFinales.manejoBD.adapter.UsuariosImagenUrlAdapter;
 import com.example.o_o.diplomadomesct.persistence.menu.proyectosFinales.manejoBD.entidades.Usuario;
@@ -85,6 +86,12 @@ public class ConsultaListaUsuarioImagenUrlFragment extends Fragment implements R
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        //=========================================================================================
+        ((MainActivity) getActivity()).setActionBarTitle("Consultar usuarios imagen URL");
+        //=========================================================================================
+
+
         View vista = inflater.inflate(R.layout.fragment_consulta_lista_usuario_imagen_url, container, false);
 
         listaUsuarios = new ArrayList<>();

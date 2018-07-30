@@ -37,6 +37,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
+import com.example.o_o.diplomadomesct.MainActivity;
 import com.example.o_o.diplomadomesct.R;
 import com.example.o_o.diplomadomesct.persistence.menu.proyectosFinales.manejoBD.entidades.VolleySingleton;
 
@@ -118,6 +119,11 @@ public class RegistrarUsuarioFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        //=========================================================================================
+        ((MainActivity) getActivity()).setActionBarTitle("Registrar usuario");
+        //=========================================================================================
+
 
         View vista = inflater.inflate(R.layout.fragment_registrar_usuario, container, false);
         campoDocumento = (EditText) vista.findViewById(R.id.campoDoc);

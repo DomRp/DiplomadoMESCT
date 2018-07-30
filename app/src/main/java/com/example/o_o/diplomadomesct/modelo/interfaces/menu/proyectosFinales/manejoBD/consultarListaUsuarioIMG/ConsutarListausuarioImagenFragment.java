@@ -16,6 +16,7 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.example.o_o.diplomadomesct.MainActivity;
 import com.example.o_o.diplomadomesct.R;
 import com.example.o_o.diplomadomesct.persistence.menu.proyectosFinales.manejoBD.adapter.UsuariosImagenAdapter;
 import com.example.o_o.diplomadomesct.persistence.menu.proyectosFinales.manejoBD.entidades.Usuario;
@@ -87,6 +88,12 @@ public class ConsutarListausuarioImagenFragment extends Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        //=========================================================================================
+        ((MainActivity) getActivity()).setActionBarTitle("Consultar lista de usuarios con imagen");
+        //=========================================================================================
+
+
         View vista = inflater.inflate(R.layout.fragment_consutar_listausuario_imagen, container, false);
         ;
 

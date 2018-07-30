@@ -37,6 +37,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.ImageRequest;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
+import com.example.o_o.diplomadomesct.MainActivity;
 import com.example.o_o.diplomadomesct.R;
 import com.example.o_o.diplomadomesct.persistence.menu.proyectosFinales.manejoBD.entidades.Usuario;
 import com.example.o_o.diplomadomesct.persistence.menu.proyectosFinales.manejoBD.entidades.VolleySingleton;
@@ -127,6 +128,11 @@ public class ConsultaUsuarioUrlFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        //=========================================================================================
+        ((MainActivity) getActivity()).setActionBarTitle("Consultar usuarios con URL");
+        //=========================================================================================
+
+
         View vista = inflater.inflate(R.layout.fragment_consulta_usuario_url, container, false);
 
         txtDocumento = (EditText) vista.findViewById(R.id.campoDocumento);

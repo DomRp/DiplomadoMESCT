@@ -19,6 +19,7 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.example.o_o.diplomadomesct.MainActivity;
 import com.example.o_o.diplomadomesct.R;
 import com.example.o_o.diplomadomesct.persistence.menu.proyectosFinales.manejoBD.entidades.Usuario;
 import com.example.o_o.diplomadomesct.persistence.menu.proyectosFinales.manejoBD.entidades.VolleySingleton;
@@ -86,6 +87,12 @@ public class ConsultarUsuarioFragment extends Fragment implements Response.Liste
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        //=========================================================================================
+        ((MainActivity) getActivity()).setActionBarTitle("Consultar usuarios");
+        //=========================================================================================
+
+
         View vista = inflater.inflate(R.layout.fragment_consultar_usuario, container, false);
 
         campoDocumento = (EditText) vista.findViewById(R.id.campoDocumento);

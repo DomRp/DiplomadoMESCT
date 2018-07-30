@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.o_o.diplomadomesct.MainActivity;
 import com.example.o_o.diplomadomesct.R;
 
 
@@ -65,6 +66,11 @@ public class BienvenidaFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        //=========================================================================================
+        ((MainActivity) getActivity()).setActionBarTitle("Bienvenida BD Remota");
+        //=========================================================================================
+
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_bienvenida, container, false);
     }
