@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondoMESCyT"
+    android:fitsSystemWindows="true"
+    tools:context=".modelo.interfaces.menu.menuPrincipal.MenuPrincipalFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/ivLogoMESCyT"
+                android:layout_width="130dp"
+                android:layout_height="101dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="23dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/logo_white_sin_titulo_mescyt"
+                android:foregroundGravity="center_horizontal"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:paddingTop="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/tvTitulo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/autour_one"
+                android:padding="20dp"
+                android:text="Proyecto final | Diplomado Android"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorFondoAmarillo"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/tvSubTitulo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ivLogoMESCyT" />
+
+            <TextView
+                android:id="@+id/tvSubTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/tvTituloFinal"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="56dp"
+                android:fontFamily="@font/autour_one"
+                android:text="Copyright 2018  Leandro Leonardo"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorBlanco"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/tvTituloFinal"
+                app:layout_constraintStart_toStartOf="@+id/tvTitulo"
+                app:layout_constraintTop_toBottomOf="@+id/tvTitulo" />
+
+            <TextView
+                android:id="@+id/tvTituloFinal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="21dp"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/autour_one"
+                android:text="Todos los derechos reservados"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorBlanco"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/tvAPI"
+                app:layout_constraintStart_toStartOf="@+id/tvSubTitulo"
+                app:layout_constraintTop_toBottomOf="@+id/tvSubTitulo" />
+
+            <TextView
+                android:id="@+id/tvAPI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/aclonica"
+                android:text="API 26 | 8.0"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorFondoAmarillo"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvTituloFinal" />
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+
+</FrameLayout>
