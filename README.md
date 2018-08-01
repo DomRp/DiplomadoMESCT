@@ -33,7 +33,7 @@ This project will be used as a guide of presentation to the Android Development 
 <img src="diplomadoMESCYTscreentShots/5sw.PNG" align="center" height="500px" width="282px"/>
 
 # Menu Drawer Activity 1 - 3
-<img src="diplomadoMESCYTscreentShots/6d.PNG" align="center" height="500px" width="282px"/>
+<img src="diplomadoMESCYTscreentShots/6draw.PNG" align="center" height="500px" width="282px"/>
 
 # Menu Drawer Activity 2 - 3
 <img src="diplomadoMESCYTscreentShots/7drawer.PNG" align="center" height="500px" width="282px"/>
