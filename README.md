@@ -9,10 +9,10 @@ This project will be used as a guide of presentation to the Android Development 
 
 + Share.
 + Consumir API REST.
-+ Interfaz gráfica presentable.
-+ Manejar cambios de configuración.
-+ Servicio que muestre una notificación
-+ Guardar información de manera local utilizando una BD.
++ Interfaz grÃ¡fica presentable.
++ Manejar cambios de configuraciÃ³n.
++ Servicio que muestre una notificaciÃ³n
++ Guardar informaciÃ³n de manera local utilizando una BD.
 + Al menos tres (3) pantallas (celular, phoneblet, tablet).
 
 # Screen Examples:
@@ -33,7 +33,7 @@ This project will be used as a guide of presentation to the Android Development 
 <img src="diplomadoMESCYTscreentShots/5sw.PNG" align="center" height="500px" width="282px"/>
 
 # Menu Drawer Activity 1 - 3
-<img src="diplomadoMESCYTscreentShots/6m.PNG" align="center" height="500px" width="282px"/>
+<img src="diplomadoMESCYTscreentShots/6d.PNG" align="center" height="500px" width="282px"/>
 
 # Menu Drawer Activity 2 - 3
 <img src="diplomadoMESCYTscreentShots/7drawer.PNG" align="center" height="500px" width="282px"/>
